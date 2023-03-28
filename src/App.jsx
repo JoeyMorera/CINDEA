@@ -11,10 +11,10 @@ function App() {
     <>
       <Navbar />
       <Routes >
-        <Route path='/CINDEA/' element={<Home />}/>
-        <Route path='/CINDEA/nosotros' element={<Nosotros />}/>
-        <Route path='/CINDEA/cursos' element={<Cursos />}/>
-        <Route path='/CINDEA/contacto' element={<Contacto />}/>
+        <Route path='/' element={<Home />}/>
+        <Route path='/nosotros' element={<Nosotros />}/>
+        <Route path='/cursos' element={<Cursos />}/>
+        <Route path='/contacto' element={<Contacto />}/>
       </Routes>
       <Footer />
     </>
