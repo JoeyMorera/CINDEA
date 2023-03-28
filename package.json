@@ -1,6 +1,7 @@
 {
   "name": "cindea",
-  "private": true,
+  "homepage":"https://joeymorera.github.io/CINDEA/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
