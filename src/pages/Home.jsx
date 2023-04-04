@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -9,7 +9,8 @@ const Home = () => {
           <p className='p-4'>¿Aun no has terminado la primaria o secundaria y deseas alguna formación técnica para incorporarte al mundo laboral?
           </p>
           <p className='pb-4'>  Ingresa para conocer el reglamento</p>
-          <button className='rounded-full w-40 p-5 bg-indigo-500 hover:bg-indigo-700 text-white font-bold'>Reglamento</button>
+          <button className='rounded-full w-40 p-5 bg-indigo-500 hover:bg-indigo-700 text-white font-bold'>
+            <Link to='/nosotros'>Reglamento</Link></button>
         </div>
       </div>
     </div>
