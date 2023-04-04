@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -7,10 +7,18 @@ const Navbar = () => {
                 <a href="/" className='pb-5'>C I N D E A</a>
             </div>
             <ul className='flex'>
-                <li className='flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5'><a href="/" className='px-4 '>Inicio</a></li>
-                <li className='flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5'><a href="/cursos" className='px-4 '>Cursos</a></li>
-                <li className='flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5'><a href="/nosotros" className='px-4 '>Nosotros</a></li>
-                <li className='flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5'><a href="/contacto" className='px-4 '>Contacto</a></li>
+                <li className='flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5'>
+                    <Link to='/' className='px-4'>Inicio</Link>
+                </li>
+                <li className='flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5'>
+                    <Link to='/cursos' className='px-4'>Cursos</Link>
+                </li>
+                <li className='flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5'>
+                    <Link to='/nosotros' className='px-4'>Nosotros</Link>
+                </li>
+                <li className='flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5'>
+                    <Link to='/contacto' className='px-4'>Contacto</Link>
+                </li>
                 <li className='md:flex md:items-end items-center hover:bg-indigo-900 h-28 pb-5 hidden md:visible'><a href="https://www.facebook.com/profile.php?id=541452505874020&paipv=0&eav=AfaqSBr8vsIjX08r2X75mccQPeCN8scQxJHNZpohq7vG4PQkYgQpyauZp1hqzaCekyM&_rdr" className='px-4' target={'_blank'}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
